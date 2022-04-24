@@ -1,11 +1,11 @@
 package com.example.security;
 
-import lombok.extern.slf4j.Slf4j;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@Slf4j
+@Log4j2
 public class SecurityApplication {
 
     public static void main(String[] args) {
